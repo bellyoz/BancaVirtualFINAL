@@ -1,0 +1,196 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	
+	color: #00013A;
+}
+.contenedor{
+	width: 100%;
+	max-width: 1000px;
+	margin:0px auto;
+	margin-top: 0px;
+	min-width: 400px;
+}
+.der{
+	float: right !important;
+}
+
+header { 
+	position: relative;
+	background: #084B8A;
+	min-height: 150px;
+}
+#right{
+	position: relative;
+	right: 0px;
+	margin-top: 10px;
+}
+nav{
+	width: 100%;
+	height: 30px;
+	background: rgba(189,189,189,0.8);
+	
+}
+.other{
+	width: 500px;
+	margin:0px auto;
+}
+.nav li{
+	display: inline;
+	margin: 0px;
+	
+}
+.nav li a{ 
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 4px 10px 6px 10px;
+	background-color: #bdbdbd;
+	display: block;
+	color: #00013A;
+}
+.nav li ul{
+	display: none;
+	position: absolute;
+	min-width: 140px;
+
+}
+.nav > li{
+	float: left;
+}
+.nav li:hover > ul{
+	display: block;
+}
+.nav li a:hover{
+	background: #A1A1A1;
+}
+table{
+	margin-top: 20px;
+	width: 1000px;
+	border: 1px solid black;
+}
+th, td {
+   width: 10%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   border-spacing: 0 ;
+
+}
+
+#logo{
+	position: relative;
+	top:20px;
+	left: 50px;
+}
+
+.submit{
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #1C77FF;
+    background: #1C77FF;
+    border-radius: 15px;
+    color: white;
+    font-family: verdana;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.submit:hover{
+	border: 1px solid #4F95FD;
+	background-color: #4F95FD;
+}
+/* choice */
+.textype{
+	float: left;
+	margin-right: 20px;
+}
+#choice{
+	margin-top :25px;
+	width: 200px;
+	height: 25px;
+	margin-right: 20px;
+}
+.button-choice{
+	margin-top :25px;
+}
+.choices{
+	width: 200px;
+}
+/* formulario crear cuenta*/
+.formu_crear ul{
+	list-style-type: none;
+}
+.formu_crear li{
+	 padding: 12px;
+	 border-bottom: 1px solid #eee;
+}
+.formu_crear label { 
+	width: 150px;
+	margin-top: 3px; 
+	 float: left;
+	padding: 3px; 
+}
+
+.con{
+	margin: auto;
+	margin-top: 50px;
+	width: auto;
+	max-width: 800px;
+	height: auto;
+	background: #FAFAFA;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 3px #C4C4C4;
+
+}
+.anima{
+	margin: auto;
+	margin-top: 50px;
+	width: auto;
+	max-width: 800px;
+	height: auto;
+	background: #FAFAFA;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 3px #C4C4C4;
+}
+.anima:hover{
+	margin-top: 40px;
+	width:850px;
+    height: 250px;
+    border-radius: 10px;
+    -webkit-transition: margin-top 2s ease-out, width 1s ease, border-radius 1s linear;
+ 	 -moz-transition:margin-top 2s ease-out, width 1s ease, border-radius 1s linear;
+ 	 -o-transition: margin-top 2s ease-out, width 1s ease, border-radius 1s linear;
+ 	 -ms-transition:margin-top 2s ease-out, width 1s ease, border-radius 1s linear;
+  	transition: margin-top 2s ease-out, width 1s ease, border-radius 1s linear;
+
+}
+.trans{
+	-webkit-transition: background-color 2s ease-out, width 1s ease, box-shadow 1s linear;
+ 	 -moz-transition:background-color 2s ease-out, width 1s ease, box-shadow 1s linear;
+ 	 -o-transition: background-color 2s ease-out, width 1s ease, box-shadow 1s linear;
+ 	 -ms-transition:background-color 2s ease-out, width 1s ease, box-shadow 1s linear;
+  	transition: background-color 2s ease-out, width 1s ease, box-shadow 1s linear;
+}
+}
+.dow{
+	margin-left: 20% !important;
+	margin-top: 5px;
+}
+.table{
+	width: 100%;
+}
+/* SELECT */
+
+footer{
+
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background:#084B8A;
+}

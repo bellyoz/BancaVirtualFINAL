@@ -1,0 +1,47 @@
+
+#recuperar{
+	width: 500px;
+	
+	background: white;
+	border-radius: 20px;
+	box-shadow: 0px 0px 2px #D8D6D6;
+	margin: 0px auto;
+	margin-top: -50px; 
+}
+#recuperar > h1{
+	font-family: verdana;
+	text-align: center;
+	padding-top: 20px; 	
+}
+#recuperar > h3{
+	font-family: verdana;
+	text-align: center;
+	font-size: 15px;
+}
+input{
+	margin: 20px;
+}
+#rec {
+	margin-left: 55px;
+
+}
+.text{
+	border: 1px solid #E5E5E5;
+	box-shadow: inset 0px 0px 4px 0px #D8D6D6;
+	height: 30px;
+	border-radius: 2px;
+}
+.submit{
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #1C77FF;
+    background: #1C77FF;
+    border-radius: 15px;
+    color: white;
+    font-family: verdana;
+    font-weight: bold;
+}
+.submit:hover{
+	border: 1px solid #4F95FD;
+	background-color: #4F95FD;
+}

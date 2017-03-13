@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<link rel="stylesheet" type="text/css" href="UI/css/style.css">
+		<link rel="stylesheet" type="text/css" href="UI/css/style_slide.css">
+		<link rel="stylesheet" type="text/css" href="UI/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="UI/css/animate.css">
+		
+		<script type="text/javascript" src ="UI/js/javascript.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<title>nombre</title>
+		<script src="UI/js/jquery.slides.js"></script>
+		<meta charset = "UTF-8">
+		<meta name"viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimun-scale=1.0">
+	</head>
+	<body onload = "run()">
+		<header class = "container-floud">
+			<div class = " container ">
+				<div class = "col-xs-6 col-sm-6 col-md-6">
+				<a   href=""><img width = "150" src = "pictures/NombreLOGO.png"></a>
+				</div>
+				<div class = "col-xs-6 col-sm-6 col-md-6">
+					<a class  = "button" id = "login-button" href="#" >Login</a>
+					<span >
+			
+				<div id = "login"  >
+					<div class="triangulo_sup"></div>
+					<form class = "letra" action = "php/validarUsuario.php" method = "post"> 
+						<label>Username</label>
+						<input type = "text" class = "text" name = "userName" placeholder = "Username">
+						<label>Password</label>
+						<input type = "password" class = "text" name = "password" placeholder = "password">
+						<a href="log.html"><label>¿olvido su contraseña?</label></a>
+						<center><input class="submit button-choice" type = "submit" name = "button-log" value="login" ></center>
+					</form>
+				</div>
+			</span>
+				</div>
+			</div>
+			
+
+		</header>
+<div class = "contenedor con principal ">
+		<section class = "container row" >
+			<div class = "col-sm-6 col-md-4 " >
+				<div class = "animated bounceInLeft"id = "img-logo">
+				<div class="slides">
+	 				<img src="pictures/img/dinero.jpg">
+	 				<img src="pictures/img/cajero.jpg">
+ 				</div>
+				</div>
+			</div>
+			<aside class = " col-sm-6 col-md-8" >
+				<div class = "contenidito  animated bounceIn letra">
+					<h1 class="text-right">¿Cansado de salir de tu casa para  </h1>
+					<h1 class="text-right center"> realizar  movimientos con tu cuenta?</h1>
+					<p class = "center"> Comienza a pagar tus servicios y hacer tus transacciones. </p>
+					<center><a  href="php/Registro.php" class="center submit">Comenzar</a></center>
+				</div>
+			</aside>
+		</section>
+</div>
+	<footer class = "container-floud">
+		<div class = "row"></div>
+			<p class = "col-md-12"></p>
+		</div>
+	</footer>
+		
+	</body>
+</html>
